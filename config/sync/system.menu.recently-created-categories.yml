@@ -1,0 +1,8 @@
+uuid: ae7c7d54-e77a-45e3-8cba-f21ae2fcbb40
+langcode: en
+status: true
+dependencies: {  }
+id: recently-created-categories
+label: 'Recently created Categories'
+description: ''
+locked: false

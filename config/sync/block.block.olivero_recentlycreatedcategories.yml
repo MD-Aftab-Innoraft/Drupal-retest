@@ -1,0 +1,25 @@
+uuid: dcfe4a45-97a0-4a78-9190-3ad6882e55b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.recently-created-categories
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_recentlycreatedcategories
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:recently-created-categories'
+settings:
+  id: 'system_menu_block:recently-created-categories'
+  label: 'Recently created Categories'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

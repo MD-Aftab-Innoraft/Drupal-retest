@@ -1,0 +1,9 @@
+uuid: 39c9a437-d766-46b8-aed9-19a8d7517c3c
+langcode: en
+status: true
+dependencies: {  }
+name: 'News Category'
+vid: news_category
+description: 'Helps categorize different types of news.'
+weight: 0
+new_revision: true
