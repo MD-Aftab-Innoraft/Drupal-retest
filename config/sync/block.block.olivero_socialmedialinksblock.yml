@@ -1,0 +1,25 @@
+uuid: d5048e5f-7915-43d4-89da-98f85dbe2018
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c9226f6b-39ec-4fae-a790-6fdd3fb937fe'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_socialmedialinksblock
+theme: olivero
+region: footer_bottom
+weight: -8
+provider: null
+plugin: 'block_content:c9226f6b-39ec-4fae-a790-6fdd3fb937fe'
+settings:
+  id: 'block_content:c9226f6b-39ec-4fae-a790-6fdd3fb937fe'
+  label: 'Social Media Links '
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

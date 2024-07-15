@@ -1,0 +1,27 @@
+uuid: 4327e22a-2447-42bf-90de-db16f3d8c082
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - admin_toolbar_search
+    - node
+    - system
+id: news_content_editor
+label: 'News Content Editor'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'administer actions'
+  - 'administer menu'
+  - 'create news content'
+  - 'delete any news content'
+  - 'delete news revisions'
+  - 'delete own news content'
+  - 'edit any news content'
+  - 'edit own news content'
+  - 'revert news revisions'
+  - 'use admin toolbar search'
+  - 'view news revisions'

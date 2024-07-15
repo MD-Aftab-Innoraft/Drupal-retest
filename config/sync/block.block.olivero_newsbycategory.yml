@@ -1,0 +1,29 @@
+uuid: 56b8aa27-6e92-4642-ae14-304ffd668362
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.news-by-category
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_newsbycategory
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:news-by-category'
+settings:
+  id: 'system_menu_block:news-by-category'
+  label: 'News by Category'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
